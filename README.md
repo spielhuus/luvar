@@ -2,6 +2,7 @@
 
 [![tests](https://img.shields.io/github/actions/workflow/status/spielhuus/luvar/busted.yml?branch=main&style=for-the-badge&label=Tests)](https://github.com/spielhuus/luvar/actions/workflows/test.yml)
 [![luacheck](https://img.shields.io/github/actions/workflow/status/spielhuus/luvar/luacheck.yml?branch=main&style=for-the-badge&label=Luacheck)](https://github.com/spielhuus/luvar/actions/workflows/luacheck.yml)
+[![luals](https://img.shields.io/github/actions/workflow/status/spielhuus/luvar/llscheck.yml?branch=main&style=for-the-badge&label=luals)](https://github.com/spielhuus/luvar/actions/workflows/llscheck.yml)
 [![License-MIT](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](https://github.com/spielhuus/luvar/blob/main/LICENSE)
 
 **Luvar** is a Lua library that provides algorithms for comparing sequences of text. It includes implementations for calculating the Longest Common Subsequence (LCS) and for generating detailed character-based and line-based differences between two strings, based on the Myers diff algorithm.
