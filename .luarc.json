@@ -1,0 +1,13 @@
+{
+    "diagnostics.libraryFiles": "Disable",
+    "runtime.version": "Lua5.1",
+    "workspace.checkThirdParty": "Disable",
+    "workspace.ignoreDir": [".lua", ".luarocks", ".venv"],
+    "diagnostics.globals": [
+      "before_each",
+      "after_each",
+      "describe",
+      "it",
+      "assert"    
+    ],
+}

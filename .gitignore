@@ -1,0 +1,11 @@
+.bash_history
+.cache
+.local
+.luarocks
+.wget-hsts
+test/xdg
+.venv
+.ci
+chroma_data/
+chroma.log
+__pycache__

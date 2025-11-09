@@ -1,0 +1,16 @@
+name: Type Check Code Base
+on: [push, pull_request]
+jobs:
+  llscheck:
+    name: Type Check Code Base
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Check with Lua Language Server
+        run: |
+          wget https://github.com/LuaLS/lua-language-server/releases/download/3.15.0/lua-language-server-3.15.0-linux-x64.tar.gz
+          tar xfz lua-language-server-3.15.0-linux-x64.tar.gz
+          bin/lua-language-server --configpath $(pwd)/.luarc.json --check ./lua --checklevel=Hint
+
