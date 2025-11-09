@@ -129,7 +129,7 @@ end
 
 ## Development
 
-To run the busted tests localy type:
+To run the busted tests locally type:
 
 ```bash
 eval $(luarocks path --lua-version 5.1 --tree .venv)
