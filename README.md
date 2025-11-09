@@ -126,3 +126,12 @@ end
 -- Change: '+', Content: 'new second line'
 -- Change: '=', Content: 'third line'
 ```
+
+## Development
+
+To run the busted tests localy type:
+
+```bash
+eval $(luarocks path --lua-version 5.1 --tree .venv)
+luarocks test --lua-version 5.1 --tree .venv
+```
