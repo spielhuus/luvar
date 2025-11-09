@@ -30,8 +30,12 @@ You can install `luvar` using your favorite package manager for Lua.
 ### [Luarocks](https://luarocks.org/)
 
 ```bash
-luarocks install luvar
+git clone git@github.com:spielhuus/luvar.git
+cd luvar
+luarocks make --local
 ```
+
+You can also copy the file `lua/lcs.lua` or `lua/diff.lua` to your source folder.
 
 ## Usage
 
